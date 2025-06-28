@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(to right, #ff7f50, #ff5722);
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: white;
+  color: #ff5722;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li::before {
+  content: "✔️ ";
+  margin-right: 10px;
+  color: #ff5722;
+}
+
+.booking form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking input,
+.booking textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.booking button {
+  background: #ff5722;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
